@@ -9,6 +9,7 @@ Source0: %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: cmake
 BuildRequires: gcc-c++
+BuildRequires: cmake(Qt5)
 BuildRequires: pkgconfig(libheif) >= 1.1
 BuildRequires: qt5-rpm-macros
 
